@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "USMgXwk0h6tr1jCv9WkBsBrWktPOwxoyLhZzirR2dA0fDUYoBa9/Kfz3Yn8R7TcJgYuxe5HP/5v3pjuoYpQ52A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
-=======
   "dgSpecHash": "VtoVudzKxFRb1HUFUx72AqqQ0CVQfwTIBgz9LK8RQzD0C7zV3mWdJGLc3eY55uHiDRM0cPCsOB2UWhNVu0M2qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
->>>>>>> 35f2efe3e9423e56b7d0c7e44cc53856761f577f
   "expectedPackageFiles": [
     "C:\\Users\\aravi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\aravi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -52,5 +46,12 @@
     "C:\\Users\\aravi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\aravi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\EmployeeManager\\EmployeeManager\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
