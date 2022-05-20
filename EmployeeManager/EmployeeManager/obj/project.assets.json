@@ -1788,37 +1788,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aravi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
       "projectName": "EmployeeManager",
       "projectPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
       "packagesPath": "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
-      "projectName": "EmployeeManager",
-      "projectPath": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
-      "packagesPath": "C:\\Users\\aravi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\EmployeeManager\\EmployeeManager\\obj\\",
->>>>>>> 35f2efe3e9423e56b7d0c7e44cc53856761f577f
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\aravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\KoduvayurAghoraAravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1844,6 +1832,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[6.0.5, )"
@@ -1871,7 +1863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
