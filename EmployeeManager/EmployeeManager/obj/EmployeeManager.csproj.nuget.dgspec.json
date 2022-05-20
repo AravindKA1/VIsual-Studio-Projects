@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj": {}
+    "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj": {
+    "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+        "projectUniqueName": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
         "projectName": "EmployeeManager",
-        "projectPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+        "projectPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
         "packagesPath": "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\EmployeeManager\\EmployeeManager\\obj\\",
+        "outputPath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\EmployeeManager\\EmployeeManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KoduvayurAghoraAravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
