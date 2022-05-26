@@ -1,4 +1,5 @@
 using EmployeeManager.Models;
+using EmployeeManager.Security;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,13 @@ builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("AppDB");
 
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<AppIdentityDBContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddIdentity<AppIdentityUser, AppIdentityRole>().AddEntityFrameworkStores<AppIdentityDBContext>();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Security/SignIn";
+    options.AccessDeniedPath = "/Security/AccessDenied";
+});
 
 var app = builder.Build();
 
@@ -20,6 +28,8 @@ var app = builder.Build();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

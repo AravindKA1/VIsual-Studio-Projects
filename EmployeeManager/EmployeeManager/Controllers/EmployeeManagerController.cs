@@ -62,14 +62,14 @@ namespace EmployeeManager.Controllers
             return View(model);
 
         }
-        [HttpDelete]
+        [HttpGet]
         [ActionName("Delete")]
         public IActionResult ConfirmDelete(int id)
         {
             var model = db.Employees.Find(id);
             return View(model);
         }
-        [HttpDelete]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {

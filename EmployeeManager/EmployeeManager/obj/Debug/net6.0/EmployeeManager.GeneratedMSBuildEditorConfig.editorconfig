@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\KoduvayurAghoraAravi\source\VS\EmployeeManager\EmployeeManager
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/KoduvayurAghoraAravi/source/VS/EmployeeManager/EmployeeManager/Views/EmployeeManager/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVNYW5hZ2VyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KoduvayurAghoraAravi/source/VS/EmployeeManager/EmployeeManager/Views/EmployeeManager/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVNYW5hZ2VyXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KoduvayurAghoraAravi/source/VS/EmployeeManager/EmployeeManager/Views/EmployeeManager/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVNYW5hZ2VyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KoduvayurAghoraAravi/source/VS/EmployeeManager/EmployeeManager/Views/EmployeeManager/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVNYW5hZ2VyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KoduvayurAghoraAravi/source/VS/EmployeeManager/EmployeeManager/Views/_ViewImports.cshtml]
