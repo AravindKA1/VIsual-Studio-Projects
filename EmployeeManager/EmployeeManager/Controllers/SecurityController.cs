@@ -67,15 +67,16 @@ namespace EmployeeManager.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = signInManager.PasswordSignInAsync(signIn.UserName, signIn.Password, signIn.RememberMe, false).Result;
+                var result1 = signInManager.PasswordSignInAsync(signIn.UserName, signIn.Password, signIn.RememberMe, false).Result;
+                var result = result1;
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("List","EmployeeManager");
+                    return RedirectToAction("List", "EmployeeManager");
                 }
                 else
                 {
                     ModelState.AddModelError("", "Invalid user details");
-                  
+
                 }
             }
             return View(signIn);

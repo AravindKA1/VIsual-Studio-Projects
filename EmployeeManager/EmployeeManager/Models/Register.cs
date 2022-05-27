@@ -16,6 +16,7 @@ namespace EmployeeManager.Models
         public string ConfirmPassword { get; set; }
         [Required]
         [Display(Name = "Email")]
+        [EmailAddress]
         public string Email { get; set; }
         [Required]
         [Display(Name = "Full Name")]

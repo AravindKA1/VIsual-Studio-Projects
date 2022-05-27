@@ -10,11 +10,13 @@ builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("AppDB");
 
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(connectionString));
+
 builder.Services.AddDbContext<AppIdentityDBContext>(options => options.UseSqlServer(connectionString));
+
 builder.Services.AddIdentity<AppIdentityUser, AppIdentityRole>().AddEntityFrameworkStores<AppIdentityDBContext>();
+
 builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.LoginPath = "/Security/SignIn";
+{   options.LoginPath = "/Security/SignIn";
     options.AccessDeniedPath = "/Security/AccessDenied";
 });
 
