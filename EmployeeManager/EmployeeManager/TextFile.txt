@@ -48,3 +48,7 @@ body {
 
 ==============================================
 
+Use Dependency injection to create employee manager instance 
+Split the business logic of employee from controller to employee manager
+Use Design pattern
+Implement a logger 

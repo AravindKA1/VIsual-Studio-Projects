@@ -21,3 +21,4 @@ namespace EmployeeManager.Models
         public bool RememberMe { get; set; }
     }
 }
+
