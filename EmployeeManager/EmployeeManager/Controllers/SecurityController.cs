@@ -81,17 +81,6 @@ namespace EmployeeManager.Controllers
             }
             return View(signIn);
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize]
-        public IActionResult SignOut()
-        {
-            signInManager.SignOutAsync().Wait();
-            return RedirectToAction("SignIn", "Security");
-        }
-        public IActionResult AccessDenied()
-        {
-            return View();
-        }
+        
     }
 }
