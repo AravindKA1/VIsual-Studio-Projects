@@ -2,7 +2,7 @@
 
 namespace Waggle.Controllers
 {
-    public class ReportsPageController : Controller
+    public class ReportsController : Controller
     {
         public IActionResult ReportsPage()
         {

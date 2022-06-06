@@ -2,7 +2,7 @@
 
 namespace Waggle.Controllers
 {
-    public class HomePageController : Controller
+    public class HomeController : Controller
     {
         public IActionResult HomePage()
         {

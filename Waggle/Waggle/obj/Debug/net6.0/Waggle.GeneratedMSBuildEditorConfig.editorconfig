@@ -15,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\KoduvayurAghoraAravi\source\VS\Waggle\Waggle
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/HomePage/HomePage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcSG9tZVBhZ2UuY3NodG1s
+[C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/Home/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/LogIn/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/ReportsPage/ReportsPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1BhZ2VcUmVwb3J0c1BhZ2UuY3NodG1s
+[C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/Reports/ReportsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xSZXBvcnRzUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KoduvayurAghoraAravi/source/VS/Waggle/Waggle/Views/_ViewImports.cshtml]
