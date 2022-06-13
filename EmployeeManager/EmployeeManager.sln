@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager", "EmployeeManager\EmployeeManager.csproj", "{6492875E-BB44-4D0B-9DA2-49B475A5274C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManager", "EmployeeManager\EmployeeManager.csproj", "{6492875E-BB44-4D0B-9DA2-49B475A5274C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waggle", "Waggle\Waggle.csproj", "{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6492875E-BB44-4D0B-9DA2-49B475A5274C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6492875E-BB44-4D0B-9DA2-49B475A5274C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6492875E-BB44-4D0B-9DA2-49B475A5274C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

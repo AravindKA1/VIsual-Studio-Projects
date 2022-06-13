@@ -1,0 +1,46 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Waggle.Models
+{
+    [Table("Person")]
+    public class Person
+    {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("PersonID")]
+        [Key]
+        [Display(Name = "Person Id")]
+        [Required(ErrorMessage = "Person ID is mandatory")]
+        public int PersonID { get; set; }
+
+
+
+        [Column("First Name")]
+        [Required(ErrorMessage = "First Name is mandatory")]
+        [StringLength(20, ErrorMessage = "First Name should be less than 20 characters")]
+
+        public string FirstName { get; set; }
+
+
+
+        [Column("Last Name")]
+        [Required(ErrorMessage = "Last Name is mandatory")]
+        [StringLength(20, ErrorMessage = "Last Name should be less than 20 characters")]
+        public string LastName { get; set; }
+
+
+        [Column("Discriminator")]
+        [Required(ErrorMessage = "Discriminator is mandatory")]
+        [StringLength(20, ErrorMessage = "Discriminator should be less than 20 characters")]
+
+        public string Discriminator { get; set; }
+
+
+
+        [Required(ErrorMessage = "Enrollment date is mandatory")]
+        [Column("EnrollmentDate")]
+        [Display(Name = "Enrollment Date")]
+        public DateTime EnrollmentDate { get; set; }
+
+    }
+}
