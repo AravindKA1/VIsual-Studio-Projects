@@ -1,0 +1,4 @@
+﻿1)To perform CRUD Operation on the DB so install EF core package
+2)install EF core SQL server
+3)Added school DB to the local sql server
+4)Created a Person model
