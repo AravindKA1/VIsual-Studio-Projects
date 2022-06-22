@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaggleMVC", "Waggle\WaggleMVC.csproj", "{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaggleAPI", "WaggleAPI\WaggleAPI.csproj", "{FB2E5865-AB0E-4E17-8B36-3BB254347829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaggleAPIClient", "WaggleAPIClient\WaggleAPIClient.csproj", "{706A0196-8DDA-480B-B7C0-3C438F7D0433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
