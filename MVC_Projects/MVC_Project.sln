@@ -5,9 +5,16 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaggleMVC", "Waggle\WaggleMVC.csproj", "{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaggleAPI", "WaggleAPI\WaggleAPI.csproj", "{FB2E5865-AB0E-4E17-8B36-3BB254347829}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D42CC79C-108E-4CE5-B650-0928B30377FD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaggleAPIClient", "WaggleAPIClient\WaggleAPIClient.csproj", "{706A0196-8DDA-480B-B7C0-3C438F7D0433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9A61BBAF-4F0E-4E23-ACEC-94DDD51EB779}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClient", "MyClient\MyClient.csproj", "{CF6EBE6E-DD1C-4882-8782-B708A461017A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaggleBlazor", "WaggleBlazor\WaggleBlazor.csproj", "{9EBBBC2B-B620-4B05-8E80-81C591A2914D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +26,18 @@ Global
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C3D8F91-7FF5-48F4-8A16-FBBD2B02DDBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB2E5865-AB0E-4E17-8B36-3BB254347829}.Release|Any CPU.Build.0 = Release|Any CPU
-		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{706A0196-8DDA-480B-B7C0-3C438F7D0433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A61BBAF-4F0E-4E23-ACEC-94DDD51EB779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A61BBAF-4F0E-4E23-ACEC-94DDD51EB779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A61BBAF-4F0E-4E23-ACEC-94DDD51EB779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A61BBAF-4F0E-4E23-ACEC-94DDD51EB779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6EBE6E-DD1C-4882-8782-B708A461017A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6EBE6E-DD1C-4882-8782-B708A461017A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6EBE6E-DD1C-4882-8782-B708A461017A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6EBE6E-DD1C-4882-8782-B708A461017A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBBBC2B-B620-4B05-8E80-81C591A2914D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBBBC2B-B620-4B05-8E80-81C591A2914D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBBBC2B-B620-4B05-8E80-81C591A2914D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBBBC2B-B620-4B05-8E80-81C591A2914D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

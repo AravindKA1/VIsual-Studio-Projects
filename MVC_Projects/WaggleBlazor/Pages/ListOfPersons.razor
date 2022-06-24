@@ -1,0 +1,54 @@
+﻿@page "/"
+@page "/Person/ListOfPersons"
+
+@namespace WaggleBlazor.Pages
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager UriHelper
+@inject WaggleBlazor.Repositories.IPersonRepository PerRepository
+@using WaggleBlazor.Models
+<h3>ListOfPersons</h3>
+
+@code {
+    List<Person> Persons;
+
+    string Message { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var uri = new Uri(UriHelper.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).Count > 0)
+        {
+            Message = QueryHelpers.ParseQuery(uri.Query).First().Value;
+        }
+        Persons = PerRepository.SelectAll();
+    }
+}
+<h2>List Of Persons</h2>
+<h3 class="message">@Message</h3>
+<a href="/person/insert" class="linkbutton">Insert</a>
+<br />
+<br />
+<table border="1" cellpadding="10">
+    <tr>
+        <th>PersonId</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Discriminator</th>
+        <th colspan="2">Actions</th>
+    </tr>
+    @foreach (var item in Persons)
+    {
+        <tr>
+            <td>@item.PersonID</td>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.Discriminator</td>
+            <td>
+                <a href="person/update/@item.PersonID" class="linkbutton">Update</a>
+            </td>
+            <td>
+                <a href="person/delete/@item.PersonID" class="linkbutton">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
