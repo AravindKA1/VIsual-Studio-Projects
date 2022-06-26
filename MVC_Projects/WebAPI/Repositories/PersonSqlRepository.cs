@@ -6,10 +6,10 @@ namespace WebAPI.Repositories
 {
     public class PersonSqlRepository : IPersonRepository
     {
-        private readonly AppDbContext db=null;
+        private readonly AppDbContext db = null;
         public PersonSqlRepository(AppDbContext db)
         {
-            this.db=db; 
+            this.db = db;
         }
         public List<Person> SelectAll()
         {
@@ -18,9 +18,9 @@ namespace WebAPI.Repositories
         }
         public Person SelectByID(int id)
         {
-          Person obj= db.Persons.FromSqlRaw("SELECT PersonID, FirstName, LastName, Discriminator FROM Person WHERE PersonID={0}",id).SingleOrDefault();
+            Person obj = db.Persons.FromSqlRaw("SELECT PersonID, FirstName, LastName, Discriminator FROM Person WHERE PersonID={0}", id).SingleOrDefault();
 
-            return obj; 
+            return obj;
         }
 
         public void Insert(Person per)
@@ -36,7 +36,5 @@ namespace WebAPI.Repositories
         {
             db.Database.ExecuteSqlRaw("DELETE FROM Person WHERE PersonID={0}", id);
         }
-
-       
     }
 }
