@@ -1,0 +1,34 @@
+﻿@page "/Person/Insert"
+@inject WaggleBlazor.Repositories.IPersonRepository PerRepository
+@using WaggleBlazor.Models
+
+@code {
+    Person PersonModel{ get; set; }
+    string Message { get; set; }
+    protected override void OnInitialized()
+    {
+        PersonModel = new Person();
+    }
+    private void OnSaveClick()
+    {
+        PerRepository.Insert(PersonModel);
+        Message = "Person Inserted Successfully";
+    }
+}
+<h2>Insert New Person</h2>
+<h3 class="message">@Message</h3>
+<EditForm  model="PersonModel" onValidSubmit="OnSaveClick">
+    <DataAnnotationValidator>
+    </DataAnnotationValidator> 
+    <table border="0" cellpadding="10">
+        <tr>
+            <td class="right">
+                <label for="FirstName">FirstName</label>
+            </td>
+            <td>
+                <inputText id="FirstName" @bind-value="PersonModel.FirstName"/>
+               
+            </td>
+        </tr>
+    </table>
+</EditForm>

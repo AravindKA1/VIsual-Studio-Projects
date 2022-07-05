@@ -1,0 +1,12 @@
+﻿1)To perform CRUD Operation on the DB so install EF core package
+2)install EF core SQL server
+3)Added school DB to the local sql server
+4)Created a Person model and added properties 
+5)Created DbContext class
+6)Created a connection string in appsettings.json
+7)Created Home controller added listOfPersons action
+8)Created ListOfPersons view and displayed the data in a table
+9)Created a folder Identity and added IdentityUser,IdentityRole,IdentityDbContext classes
+10)Added services in the program.cs
+11)Added Identity tables to the DB
+12)x`
