@@ -10,7 +10,8 @@ namespace EmployeeManager.Blazor.Models
   {
     [Required]
     [Display(Name = "User Name")]
-    public string UserName { get; set; }
+        [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Use Characters only")]
+        public string UserName { get; set; }
 
     [Required]
     [Display(Name = "Password")]

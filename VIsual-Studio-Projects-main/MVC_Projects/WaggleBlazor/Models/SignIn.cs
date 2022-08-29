@@ -8,6 +8,7 @@ namespace WaggleBlazor.Models
     {
         [Required]
         [Display(Name = "User Name")]
+            [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Use Characters only")]
         public string UserName { get; set; }
 
         [Required]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iox+KQaRbAEVFNmIEqMBKPO2cysKglr0gq4+PBH0KIQ=",
+  "Hash": "cCWMyjR7pUEP6PVXYahz7oeN6RtK1RkXlx+yadX/u1w=",
   "Source": "WaggleBlazor",
   "BasePath": "_content/WaggleBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WaggleBlazor\\wwwroot",
       "Source": "WaggleBlazor",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WaggleBlazor.styles.css",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WaggleBlazor.styles.css",
       "SourceId": "WaggleBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "WaggleBlazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WaggleBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WaggleBlazor.styles.css"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WaggleBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WaggleBlazor.bundle.scp.css",
       "SourceId": "WaggleBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "WaggleBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WaggleBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WaggleBlazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\css\\site.css",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\favicon.ico",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\BackgroundImage.jpg",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\BackgroundImage.jpg",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "images/BackgroundImage.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\BackgroundImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\companion.png",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\companion.png",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "images/companion.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\companion.png"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\george.png",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\george.png",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "images/george.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\george.png"
     },
     {
-      "Identity": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\images\\logo.svg",
       "SourceId": "WaggleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aravi\\source\\VIsual-Studio-Projects\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\MVC_Projects\\WaggleBlazor\\wwwroot\\",
       "BasePath": "_content/WaggleBlazor",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",

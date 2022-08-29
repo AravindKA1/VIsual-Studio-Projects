@@ -5,6 +5,7 @@ namespace WaggleBlazor.Models
     public class Register
     {
         [Required]
+        [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Use Characters only")]
         [Display(Name = "User Name")]
         public string UserName { get; set; }
         [Required]
@@ -20,6 +21,7 @@ namespace WaggleBlazor.Models
         public string Email { get; set; }
         [Required]
         [Display(Name = "Full Name")]
+        [RegularExpression(@"^[a-zA-Z]+[ a-zA-Z-_]*$", ErrorMessage = "Use Characters only")]
         public string FullName { get; set; }
         [Required]
         [Display(Name = "Birth Date")]
