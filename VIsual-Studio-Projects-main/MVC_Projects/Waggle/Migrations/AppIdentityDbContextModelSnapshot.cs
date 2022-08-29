@@ -8,7 +8,7 @@ using Waggle.Identity;
 
 #nullable disable
 
-namespace Waggle.Migrations
+namespace WaggleMVC.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
     partial class AppIdentityDbContextModelSnapshot : ModelSnapshot

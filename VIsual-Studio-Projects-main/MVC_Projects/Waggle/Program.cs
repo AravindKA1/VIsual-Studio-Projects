@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Added a service for our connection string used with the sqlserver
-var connectionString = builder.Configuration.GetConnectionString("AppDB");
+var connectionString = builder.Configuration.GetConnectionString("AppDb");
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
@@ -40,6 +40,5 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=ListOfPersons}/{id?}");
-
+    pattern: "{controller=Identity}/{action=SignIn}/{id?}");
 app.Run();

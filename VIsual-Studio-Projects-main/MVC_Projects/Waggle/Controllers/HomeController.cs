@@ -4,7 +4,7 @@ using Waggle.Models;
 
 namespace Waggle.Controllers
 {
-    [Authorize(Roles = "Manager")]
+    [Authorize(Roles = "WaggleUser")]
     public class HomeController : Controller
     {
         //dependency injection feature for asp.net core
@@ -62,7 +62,7 @@ namespace Waggle.Controllers
         [ActionName("Delete")]
         public IActionResult ConfirmDelete(int id)
         {
-            var model=db.Persons.Find(id);  
+            var model = db.Persons.Find(id);
             return View(model);
         }
         [HttpPost]
@@ -76,7 +76,5 @@ namespace Waggle.Controllers
             return RedirectToAction("ListOfPersons");
 
         }
-
-
     }
 }

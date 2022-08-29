@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uM14NBdnN7e9VMf+5AMlZUbrZHB6N8fPQxRUjj8sv37y8zehuWuXP9WYg9yO8wHQmqd6XlPxjiemgem4pYwCTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KoduvayurAghoraAravi\\source\\VS\\VIsual-Studio-Projects-main\\Practice_Projects\\PracticeSolution\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

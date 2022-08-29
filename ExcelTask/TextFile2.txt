@@ -1,0 +1,64 @@
+foreach (Customer item in customers)
+            {
+                if (customers2.Where(i => i.SchoolName == item.SchoolName).SingleOrDefault() == null)
+                {
+                    customers2.Add(new Customer()
+                    {
+                        state = item.state,
+                        districtpid = item.districtpid,
+                        districtName = item.districtName,
+                        schoolpid = item.schoolpid,
+                        SchoolName = item.SchoolName,
+                        EdEnabled = item.EdEnabled,
+                        CreatedDate = item.CreatedDate,
+                        LastLoggedIn = item.LastLoggedIn,
+                        schoolYear_startdate = item.schoolYear_startdate,
+                        schoolYear_enddate = item.schoolYear_enddate,
+                        SchoolYearActive = item.SchoolYearActive,
+                        ela_subscription = item.ela_subscription,
+                        math_subscription = item.math_subscription,
+                        sub_startdate = item.sub_startdate,
+                        sub_enddate = item.sub_enddate,
+                        sub_active = item.sub_active,
+                        DistrictId = item.DistrictId,
+                        SchoolId = item.SchoolId,
+                        ssoProvider = item.ssoProvider,
+                        IsArchived = item.IsArchived,
+                        Rollover2021 = item.Rollover2021,
+                        Why = item.Why,
+                        SRNOTES = item.SRNOTES,
+                        FUTURE = item.FUTURE
+                    });
+                }
+            }
+
+
+
+               List<Customer> Unique = obj.customers.Select(i => new { i.state, i.districtpid, i.districtName, i.schoolpid, i.SchoolName, i.EdEnabled, i.CreatedDate, i.LastLoggedIn, i.schoolYear_startdate, i.schoolYear_enddate, i.SchoolYearActive, i.ela_subscription, i.math_subscription, i.sub_startdate, i.sub_enddate, i.sub_active, i.DistrictId, i.SchoolId, i.ssoProvider, i.IsArchived, i.Rollover2021, i.Why, i.SRNOTES, i.FUTURE }).Distinct().
+                Select(item => new Customer
+                {
+                state = item.state,
+                districtpid = item.districtpid, 
+                districtName = item.districtName,
+                schoolpid = item.schoolpid,
+                SchoolName = item.SchoolName,
+                EdEnabled = item.EdEnabled,
+                CreatedDate = item.CreatedDate,
+                LastLoggedIn = item.LastLoggedIn,
+                schoolYear_startdate = item.schoolYear_startdate,
+                schoolYear_enddate = item.schoolYear_enddate,
+                SchoolYearActive = item.SchoolYearActive,
+                ela_subscription = item.ela_subscription,
+                math_subscription = item.math_subscription,
+                sub_startdate = item.sub_startdate,
+                sub_enddate = item.sub_enddate,
+                sub_active = item.sub_active,
+                DistrictId = item.DistrictId,
+                SchoolId = item.SchoolId,
+                ssoProvider = item.ssoProvider,
+                IsArchived = item.IsArchived,
+                Rollover2021 = item.Rollover2021,
+                Why = item.Why,
+                SRNOTES = item.SRNOTES,
+                FUTURE = item.FUTURE
+            }).ToList();
